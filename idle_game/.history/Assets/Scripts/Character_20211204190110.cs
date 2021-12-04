@@ -1,0 +1,19 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class NewBehaviourScript : MonoBehaviour
+{
+    public BingInteger Hp;
+    public BingInteger Hp_Max;
+    public BigInteger Damage;
+    public float Attack_Speed;
+
+    public void Init() {
+        Hp_Max = 100;
+        Hp = Hp_Max;
+        Damage = 10;
+        Attack_Speed = 1.0f;
+    }
+    
+}
